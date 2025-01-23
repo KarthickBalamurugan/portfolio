@@ -1,0 +1,38 @@
+.LoadingScreen {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    color: white;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+.loadingTextContainer {
+    display: flex;
+    overflow: hidden;
+}
+
+.loadingText {
+    font-size: 5rem;
+    letter-spacing: 0.2em;
+    display: flex;
+    align-items: center;
+    font-family: 'JJK', sans-serif;
+}
+
+.currentChar {
+    display: inline-block;
+    transition: width 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.up{
+    transition: transform 0.9s cubic-bezier(0.49,0,0.9,1);
+    transform: translateY(-200%);
+}
+
+.boldText {
+    font-weight: bold;
+}
