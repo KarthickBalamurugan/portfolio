@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 10;
+    z-index: 100;
 }
 
 .loadingTextContainer {
@@ -20,8 +20,18 @@
     letter-spacing: 0.2em;
     display: flex;
     align-items: center;
-    font-family: 'JJK', sans-serif;
+    font-family:  OPfont, sans-serif;
+    /* font-family: 'OPfont'; */
 }
+
+/* .loadingText {
+    font-size: 5rem;
+    letter-spacing: 0.2em;
+    display: flex;
+    align-items: center;
+    font-family: 'OPfont', sans-serif;
+} */
+
 
 .currentChar {
     display: inline-block;
@@ -34,5 +44,5 @@
 }
 
 .boldText {
-    font-weight: bold;
+    font-weight: bolder;
 }

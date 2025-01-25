@@ -19,6 +19,13 @@ body {
   font-weight: normal;
   font-style: bold;
 }
+/* @font-face */
+@font-face {
+  font-family: 'OPfont';
+  src: url('/public/fonts/OPfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: bold;
+}
 
 
 code {

@@ -1,0 +1,45 @@
+.navbar{
+    /* height: 100vh;
+    width: 100vw; */
+    position: absolute;
+    /* color: white; */
+    /* background: pink; */
+    /* display:  */
+     align-items: center;
+    justify-content: space-between;
+    z-index: 80;
+    width: 100%;
+    display: flex;
+    /* padding: 20px,1%;  */
+}
+.Projects
+{
+    text-align: right;
+    /* background: gainsboro; */
+    font-weight: 1000;
+    color :grey;
+}
+/* .Contact
+{
+    text-align: right;
+} */
+ /* .logo
+ {
+    opacity: 50;
+    color: black;
+    width: 100px;
+    height: 100px;
+    /* align-items: ce; */
+    /* padding:70,80%;
+    justify-content: center; */
+ /* } */ 
+ .logo
+ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    background-color: transparent;
+    width: 10rem; 
+    height: auto; 
+ }

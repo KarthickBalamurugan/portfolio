@@ -8,7 +8,7 @@ const LoadingScreen = () => {
   const [finalText, setFinalText] = useState("")
   const [isAnimating, setIsAnimating] = useState(true)
   const [rollUp,setRollUp]=useState(false);
-  const welcomes = ["Hello", "வணக்கம்", "नमस्ते"]
+  const welcomes = ["HELLO", "வணக்கம்", "नमस्ते","こんにちは"]
 
   useEffect(() => {
     if (isAnimating) {
