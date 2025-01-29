@@ -1,0 +1,10 @@
+.Main{
+    background : green;
+    position:relative;
+    background-color: black;
+}
+main{
+    position:relative;
+    background-color: black;
+    height: 100vh;
+}

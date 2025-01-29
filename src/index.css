@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: 'AOT';
+  src: url('/public/fonts/AOT.ttf') format('truetype');
+  font-weight: normal;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'JJK';
+  src: url('/public/fonts/JJK.ttf') format('truetype');
+  font-weight: normal;
+  font-style: bold;
+}
+/* @font-face */
+@font-face {
+  font-family: 'OPfont';
+  src: url('/public/fonts/OPfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: bold;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

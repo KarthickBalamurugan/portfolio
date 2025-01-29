@@ -1,0 +1,48 @@
+.HeroImg{
+    position:absolute;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:100vw;
+}
+.TitleText1{
+    position:relative;
+}
+.Profilepic
+{   
+    z-index:10;
+    height:70vh;
+    background:transparent;
+}
+.pfpcontainer {
+    position: absolute;
+    right: 5%; 
+    top: 40%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+  }
+  
+  .pfp {
+    width: 250px; 
+    height: 250px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+    object-fit: cover;
+  }
+ 
+  @media (max-width: 520px) {
+    .pfpcontainer {
+      right: 50%; /* Move to center horizontally */
+      top: 50%; /* Move to center vertically */
+      transform: translate(50%, -50%); /* Center both horizontally and vertically */
+    }
+  
+    .pfp {
+      width: 200px; /* Adjust size for smaller screens */
+      height: 200px;
+    }
+  }
+  
